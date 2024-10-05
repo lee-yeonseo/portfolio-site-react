@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+}
+.pf {
+  color: gray;
+  font-size: 30px;
+}
+
+.nav {
+  color: gray;
+  display: flex;
+  gap: 20px;
+  margin-right: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 8px;
+}
